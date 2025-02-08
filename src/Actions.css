@@ -3,18 +3,24 @@
   width: 400px;
   justify-content: space-between;
 }
-.acoes a {
+.acoes select {
+  display: flow-root;
+  width: 400px;
+  height: 25px;
   margin-top: 5px;
-  display: flex;
-  flex-direction: column;
-  width: 198px;
-  height: 60px;
+  border-radius: 3px;
+}
+.acoes a {
+  margin: 5px 2px 0px 2px;
+  display: inline-block;
+  width: 196px;
+  height: 56px;
   align-items: center;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 0px;
   background-color: aqua;
 }
 
 .acoes a:hover {
-  background-color: brown;
+  background-color: aquamarine;
 }
